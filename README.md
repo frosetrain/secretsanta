@@ -1,38 +1,5 @@
-# sv
+# Secret Santa
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+> For BuildingBloCS December Conference 2024 (Group 22)
 
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+Secret Santa but you can help the needy. You can make a profile and say what you want for christmas. You also specify your budget for giving. Then you can choose a decoration to put on a christmas tree. Then using some algorithm it will assign a recipient for everyone within their budget, while making sure total cost is equal to total giving. Give 0 get 25 max, give 50 get 50 max, give 100 get 75 max. Once a directed edge is found, the tree decorations become shiny, and a string of shiny lights connects both decorations. (how to implement???)
