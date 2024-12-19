@@ -38,7 +38,9 @@
 		"vite": "^6.0.0"
 	},
 	"dependencies": {
+		"@supabase/supabase-js": "^2.47.9",
 		"@tsparticles/preset-snow": "^3.2.0",
-		"@tsparticles/svelte": "^3.1.1"
+		"@tsparticles/svelte": "^3.1.1",
+		"dayjs": "^1.11.13"
 	}
 }
