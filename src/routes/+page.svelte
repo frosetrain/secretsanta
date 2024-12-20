@@ -2,7 +2,6 @@
     import { particlesInit } from "@tsparticles/svelte";
     import { onMount } from "svelte";
     import { loadSnowPreset } from "@tsparticles/preset-snow";
-    import { Button } from "$lib/components/ui/button/index.js";
     import dayjs from "dayjs";
     import relativeTime from "dayjs/plugin/relativeTime";
 
@@ -57,7 +56,7 @@
     <div class="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
         {#each data.people as person}
             <div
-                class="flex flex-col justify-between rounded bg-gray-200 p-6 shadow-md transition duration-300 hover:scale-105 hover:shadow-lg hover:shadow-gray-600/60"
+                class="flex flex-col justify-between rounded-md bg-gray-200 p-6 shadow-md transition duration-300 hover:scale-105 hover:shadow-lg hover:shadow-gray-600/60"
             >
                 <div>
                     <div class="mb-4 flex items-center gap-4">
@@ -78,5 +77,5 @@
             </div>
         {/each}
     </div>
-    <p class="mt-8 w-fit animate-spin">hi there</p>
+    <a class="mt-8 block font-medium text-blue-700 underline" href="/assigned">It’s 18 December and secret santa assignments are out</a>
 </div>
