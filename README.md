@@ -1,5 +1,16 @@
 # Secret Santa
 
-> For BuildingBloCS December Conference 2024 (Group 22)
+Secret Santa but you can help the needy.
 
-Secret Santa but you can help the needy. You can make a profile and say what you want for christmas. You also specify your budget for giving. Then you can choose a decoration to put on a christmas tree. Then using some algorithm it will assign a recipient for everyone within their budget, while making sure total cost is equal to total giving. Give 0 get 25 max, give 50 get 50 max, give 100 get 75 max. Once a directed edge is found, the tree decorations become shiny, and a string of shiny lights connects both decorations. (how to implement???)
+## Inspiration
+
+Secret Santa is a common activity in certain companies during the festive season. What if we could apply this to an entire community, with people with diverse needs, to bring the festive cheer to every member of society?
+What it does
+
+You can create a profile with your requested gift and the price of gift. Based on the price requested, the website calculates how much you must give to others. If you give 0, you get 25 max, give 50 get 50 max, give 100 get 75 max.
+
+On 18 December, everyone's Secret Santa gets finalized, and people can buy each other gifts.
+
+## How
+
+I used SvelteKit with TailwindCSS as the frontend and Supabase as the backend.
