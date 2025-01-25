@@ -33,7 +33,6 @@
         <div class="flex flex-none flex-col items-center">
             <h1 class="mb-2 w-fit bg-gradient-to-r from-red-700 to-emerald-700 bg-clip-text text-4xl font-black text-transparent">Secret Santa</h1>
             <p class="mb-2 text-lg font-medium italic text-gray-800">The spirit of giving in our community</p>
-            <p class="text-sm font-medium text-gray-800">By Group 22</p>
         </div>
         <div class="flex-1 text-right">
             {#if data.user}
